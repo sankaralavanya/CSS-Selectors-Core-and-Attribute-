@@ -1,0 +1,42 @@
+			/*[attribute=value] selector*/
+			[type="text"]{
+				background-color:lightgray;
+			}
+			[src="../images/10000-coders.png"]{
+				height:100px;
+				width:100px;
+			}
+			
+			/*[attribute]has selector*/
+			[placeholder]{
+				font-style:italic;
+				font-family:Arial Black;
+			}
+			img[src]{
+				border:5px solid red;
+			}
+			
+			/*start [attribute^="value"] selector*/
+			[class^="bg"]{
+				background-color:lightgreen;
+			}
+			
+			/*end [attribute$="value"] selector*/
+			[type$="on"]{
+				border:none;
+				background-color:blue;
+				cursor:pointer;
+			}
+			
+			/*contains [target*="value"] selector*/
+			[target*="bl"]{
+				text-decoration:none;
+				background-color:gold;
+			}
+			
+			form{
+				background-color:lightyellow;
+			}
+			
+			
+		
