@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Selectors:Global Class Id tag</title>
+		<style>
+			<!--class selector-->
+			.color{
+				color:red;
+			}
+			.para{
+				text-align:center;
+				color:purple;
+			}
+			
+			<!--id selector-->
+			#center{
+				text-align:center;
+			}
+			#green{
+				background-color:orange;
+				padding:50px;
+			}
+			#red{
+				background-color:violet;
+			}
+			
+			<!--global selector-->
+			*{
+				font-style:italic;
+			}
+			
+			<!--tag selector-->
+			ul{
+				background:#ffe5e5;
+				padding:20px;
+			}
+			ol{
+				background:#ffe5e5;
+				padding:20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1 class="color" id="center">Welcome to 10000coders</h1>
+		<h2 class="color">CSS</h2>
+		<h3 class="color">Selectors</h3>
+		<h1 class="color">Ordered List</h1>
+		<ol>
+			<li>c</li>
+			<li>Java</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JS</li>
+		</ol>
+		<h1 class="color">UnOrdered Nested List</h1>
+		<ul>
+			<li>Tea</li>
+				<ul id="green" type="circle">
+					<li>Black Tea</li>
+					<li>Green Tea</li>
+				</ul>
+			<li>Cofee</li>
+				<ul id="red" type="circle">
+					<li>Hot Coffee</li>
+					<li>Cold Cofee</li>
+				</ul>
+			<li>Milk</li>
+		</ul><br/><br/><br/>
+		<p class="para"><strong>CSS:</strong>Cascading Style Sheets is a style sheet 
+		language used for describing the presentation of a document written in a markup 
+		language such as HTML. CSS is a cornerstone technology of the World Wide Web, 
+		alongside HTML and JavaScript.</p><br/><br/>
+	</body>
+</html>
